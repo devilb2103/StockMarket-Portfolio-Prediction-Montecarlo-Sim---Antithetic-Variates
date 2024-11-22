@@ -67,6 +67,8 @@ Monte Carlo simulations generate synthetic data for predicting the future perfor
 -   **Scenario Generation**: Covers a broad range of future market conditions, including extreme events.
 -   **Risk Management**: Trains the model on various market behaviors to improve its predictive accuracy.
 
+![Monte-Carlo Simulation](Images/simulation.png)
+
 ---
 
 ### 2. Variance Reduction: Antithetic Variates
@@ -75,6 +77,8 @@ Monte Carlo simulations generate synthetic data for predicting the future perfor
 -   **Benefits**:
     -   **Balancing Effects**: Positive errors in one path offset by negative errors in its antithetic pair.
     -   **Faster Convergence**: Requires fewer simulations to achieve stable results.
+
+![Antithetic Variates](Images/variance.png)
 
 ---
 
@@ -103,6 +107,8 @@ A hybrid deep learning architecture processes the augmented Monte Carlo data to 
 
 -   Future portfolio value.
 -   Optimal Day 1 stock allocation.
+
+![Architecture](Images/architecture.png)
 
 ---
 
