@@ -49,6 +49,8 @@ Predicting the future value of a stock portfolio is a significant challenge in t
 
 ## Methodology
 
+![Methodology](Images/architecture.png)
+
 ### 1. Monte Carlo Simulation
 
 Monte Carlo simulations generate synthetic data for predicting the future performance of a portfolio under uncertainty. The process involves:
@@ -107,8 +109,6 @@ A hybrid deep learning architecture processes the augmented Monte Carlo data to 
 
 -   Future portfolio value.
 -   Optimal Day 1 stock allocation.
-
-![Architecture](Images/architecture.png)
 
 ---
 
